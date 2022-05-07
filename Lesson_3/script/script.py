@@ -2,7 +2,7 @@ import os
 import csv
 
 # Specifying the path of the images folder
-DIR_PATH = 'images/'
+DIR_PATH = '../images/'
 
 # Creating a list of names of the files with *.jpg format present in the folder
 images = [ f for f in os.listdir(DIR_PATH) if f.endswith('.jpg')]
